@@ -1,0 +1,6 @@
+{
+    "pack":{
+        "pack_format": 48,
+        "description": "Library for when a Data Pack needs a operator_block_chooser block to operate on. By ThijquintNL."
+    }
+}

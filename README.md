@@ -8,8 +8,9 @@ In Minecraft data packs, block information can be retrieved using three methods:
 
 Libraries like Bookshelf (Gunivers) or BlockSate (Triton365) achieve the third method, but I wanted to use a light-weight solution. My idea of this is to replace the block by cloning the block next to it, since the bedrock layer at y = -64 is all bedrock, but that might not always work:
 - the world or dimension could have altered world heights;
-- the bedrock layer could be changed
-- the choosen coordinates could already be in use
+- the bedrock layer could be changed;
+- the choosen coordinates could already be in use.
+In addition, this library does it's thing in an area of (-16, 15, -16, 15), which are the 4 chunks concentrated around (0, 0), to make sure the area is generated, to avoid unnessecary chunk generation. This also is a small enough area to make oversight a little easier, but it's ultimately an arbitrary area.
 
 Quite a bit of this Data Pack Library focusses on checking of the block to the east (+X) is the same block, which might fail if the other Data Pack uses more than one block, but even if there is a data pack that for some wierd reason has to do that, at that point just accept it tbh.
 

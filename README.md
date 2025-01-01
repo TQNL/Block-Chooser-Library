@@ -1,3 +1,5 @@
+# Scratch this whole project, you can just use a block outside of the world border
+
 # Block Chooser Library
 ## Usage
 *get random coordinates to a block that is free to do operations on for a cycle of commands. note: in theory the availability of this block can change in the next tick.*

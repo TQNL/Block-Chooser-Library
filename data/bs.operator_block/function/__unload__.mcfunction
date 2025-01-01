@@ -1,1 +1,1 @@
-scoreboard objectives remove bs.operator_block dummy
+scoreboard objectives remove bs.operator_block

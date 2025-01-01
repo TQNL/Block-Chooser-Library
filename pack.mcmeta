@@ -1,6 +1,10 @@
 {
-    "pack":{
-        "pack_format": 48,
-        "description": "Library for when a Data Pack needs a block to operate on. By ThijquintNL."
+  "pack": {
+    "pack_format": 48,
+    "description": "Library for when a Data Pack needs a block to operate on. By ThijquintNL.",
+    "supported_formats": {
+      "min_inclusive": 26,
+      "max_inclusive": 61
     }
+  }
 }

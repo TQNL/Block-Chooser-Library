@@ -1,6 +1,6 @@
 {
     "values": [
-        "bs.operator_block:load_choose_block"
+        "bs.operator_block:__load__"
  ],
  "by ThijquintNL": []
 }

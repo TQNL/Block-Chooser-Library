@@ -5,7 +5,7 @@
 ### direct operation
 #### initialiser function:
 ```
-function #bs.operator_block:choose_operator_block
+function #tq.operator_block:choose_operator_block
 function <namespace>:<function> with storage operator_block_chooser:choose_block coords
 ```
 
@@ -21,7 +21,7 @@ You may do `data remove storage operator_block_chooser:choose_block coords` and 
 ### operation as a condition
 #### condition checking function:
 ```
-function #bs.operator_block:choose_operator_block
+function #tq.operator_block:choose_operator_block
 execute ... if|unless function <namespace>:<initialiser_function> ... run ...
 ```
 

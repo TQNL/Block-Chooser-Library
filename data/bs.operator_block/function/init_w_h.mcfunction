@@ -1,1 +1,0 @@
-return run function bs.operator_block:get_w_h with storage bs.operator_block:choose_block coords

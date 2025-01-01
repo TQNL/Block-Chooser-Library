@@ -12,6 +12,6 @@ execute positioned 0 -64 0 unless function bs.operator_block:out_of_world run re
 
 # easy route - done
 scoreboard players reset #bs.obc.choose_block_counter bs.operator_block
-data modify storage bs.operator_block:choose_block coords.x set value 0
-data modify storage bs.operator_block:choose_block coords.y set value -64
-data modify storage bs.operator_block:choose_block coords.z set value 0
+data modify storage operator_block:choose_block coords.x set value 0
+data modify storage operator_block:choose_block coords.y set value -64
+data modify storage operator_block:choose_block coords.z set value 0

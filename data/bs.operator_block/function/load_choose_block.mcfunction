@@ -1,0 +1,1 @@
+scoreboard objectives add bs.operator_block dummy

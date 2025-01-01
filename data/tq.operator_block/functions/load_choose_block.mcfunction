@@ -1,0 +1,1 @@
+scoreboard objectives add tq.operator_block dummy
